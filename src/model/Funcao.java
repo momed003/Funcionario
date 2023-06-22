@@ -2,7 +2,7 @@ package model;
 
 public interface Funcao {
       double bonus();
-     void CargaHoraria();
+     int CargaHoraria();
      String desempenho();
       boolean assiduo();
 }

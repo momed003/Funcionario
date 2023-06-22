@@ -3,6 +3,16 @@ package model;
 public class FuncionarioSuper {
     private String nome;
     private int idade;
+
+    public int getCargaH() {
+        return CargaH;
+    }
+
+    public void setCargaH(int cargaH) {
+        CargaH = cargaH;
+    }
+
+    private int CargaH;
     private String cargo;
 
     FuncionarioSuper() {
