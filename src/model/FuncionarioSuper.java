@@ -1,6 +1,6 @@
 package model;
 
-public class FuncionarioSuper {
+public abstract class  FuncionarioSuper {
     private String nome;
     private int idade;
 
