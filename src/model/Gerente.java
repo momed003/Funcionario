@@ -19,6 +19,12 @@ public class Gerente extends FuncionarioSuper implements Funcao{
     }
 
     @Override
+    public String funcao() {
+        return "o gerente tem a funcao de garantir que tudo esteja em ordem," +
+                " e que todos os funcionarios seguem o regulamento interno da instituicao";
+    }
+
+    @Override
     public boolean assiduo() {
         return false;
     }

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d46fcd87-0030-4d6e-8850-336961b16e9e" name="Changes" comment="FuncionarioSuper.java add cargaHoraria">
-      <change afterPath="$PROJECT_DIR$/src/model/Gerente.java" afterDir="false" />
+    <list default="true" id="d46fcd87-0030-4d6e-8850-336961b16e9e" name="Changes" comment="Gerente.java commit">
+      <change afterPath="$PROJECT_DIR$/src/model/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Funcao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Funcao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/FuncionarioSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/FuncionarioSuper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Gerente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687474133272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Gerente.java commit">
+      <created>1687474346905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687474346905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,26 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FuncionarioSuper.java commit" />
     <MESSAGE value="FuncionarioSuper.java add cargaHoraria" />
-    <option name="LAST_COMMIT_MESSAGE" value="FuncionarioSuper.java add cargaHoraria" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/model/Gerente.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/model/Gerente.java</url>
-          <line>11</line>
-          <properties class="model.Gerente" method="CargaHoraria">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Gerente.java commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gerente.java commit" />
   </component>
 </project>
