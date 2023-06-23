@@ -38,6 +38,28 @@ public class Main {
                 System.out.println("desempeho: "+gerente.desempenho());
                 System.out.println("-----------------------------");
             case 2:
+                System.out.println("digite o nome:");
+                vendedor.setNome(sc.next());
+                System.out.println("digite sua idade: ");
+                vendedor.setIdade(sc.nextInt());
+                System.out.println("digite sua carga horaria: ");
+                vendedor.setCargaH(sc.nextInt());
+                System.out.println("digite seu ordenado mensal: ");
+                vendedor.setSalario(sc.nextDouble());
+
+                sc.close();
+
+                System.out.println("------------------------------");
+                System.out.println("seu nome: "+vendedor.getNome());
+                System.out.println("idade:"+vendedor.getIdade());
+                System.out.println("bonus anual: "+vendedor.bonus()+"mts");
+                System.out.println("carga horaria: "+vendedor.CargaHoraria());
+                System.out.println("suas funcoes: "+ vendedor.funcao());
+                System.out.println("assiduo: "+vendedor.assiduo());
+                System.out.println("desempeho: "+vendedor.desempenho());
+                System.out.println("-----------------------------");
+            default:
+                System.out.println("opcao invalida");
 
         }
 
